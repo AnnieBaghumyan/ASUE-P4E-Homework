@@ -7,7 +7,6 @@ def find_diff(newlist):
 			minimum = newlist[i]
 		elif newlist[i] > maximum:
 			maximum = newlist[i]
-		else: i += 1
 	difference = maximum - minimum
 	return difference
 
